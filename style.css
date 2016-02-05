@@ -1,0 +1,135 @@
+
+body{
+  background-image: url();
+  background-size: cover;
+  /*background-color: #293e6a;*/
+  text-align: center;
+  background: linear-gradient(to right, rgba(300,200,0,0), #293e6a);
+}
+h1 {
+  /*position:relative;*/
+  color: #4b4d52;
+  font-size: 100px;
+  /*width:500px;*/
+  /*margin: 0 auto;*/
+/*float: middle;*/
+}
+
+h2{
+  /*position:relative;*/
+  color: orange;
+  /*width:500px;*/
+  /*margin: 0 auto;*/
+/*float: middle;*/
+}
+#message p{
+  color: yellow;
+  font-size: 20px;
+
+}
+
+table {
+  margin: 0 auto;
+  border-radius:10px;
+  float: middle;
+  
+}
+td {
+  border: 5px solid black;
+  width: 75px;
+  height: 75px;
+  text-align: center;
+  box-sizing:border-box;
+  background-color: #3636c5;
+  margin:0;
+}
+
+td:hover{
+  cursor:pointer;
+}
+
+td:first-child{
+  border-left: none;
+
+}
+td:last-child{
+  border-right: none;
+}
+
+thead tr td{
+  border-top:none;
+  border-bottom: none;
+  text-align: center;
+
+}
+th {
+  text-align: center;
+  background: lightblue;
+}
+h1{
+  text-align: center;
+}
+#reset {
+  padding: 5px;
+  width: 150px;
+  font-size: 1.5em;
+  border-radius: 200px;
+  cursor: pointer;
+}
+
+#ready{
+  padding: 5px;
+  width: 150px;
+  font-size: 1.5em;
+  border-radius: 200px;
+  cursor: pointer;
+}
+
+  #ready:hover{
+  background: lightblue;
+  border-color: white;
+}
+
+#letsPlay{
+  padding: 5px;
+  width: 150px;
+  font-size: 1.5em;
+  border-radius: 200px;
+  cursor: pointer;
+
+}
+#letsPlay:hover{
+  background: lightblue;
+  border-color: white;
+
+
+}
+#reset:hover{
+  background: lightblue;
+  border-color: white;
+}
+#placeShip{
+  padding: 5px;
+  width: 150px;
+  font-size: 1.5em;
+  border-radius: 200px;
+  cursor: pointer;
+}
+
+#placeShip:hover{
+  background: lightgreen;
+  border-color: white;
+}
+#ready{
+  display: none;
+}
+.unselected{
+  background-color: blue;
+}
+.hit{
+  background-color: red;
+}
+.missed{
+  background-color: white;
+}
+
