@@ -40,8 +40,6 @@ End Game: The first player to lose all their ships loses the game.
 
 ~Online host~
 
-Battleship
-
 [Battleship](https://www.bitballoon.com/sites/jeweler-pig-20564)
 
 Trello Board:
